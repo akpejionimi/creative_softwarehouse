@@ -1,4 +1,4 @@
-# creative_softwarehouse
+# creative_softwarehouse click to view the UI. Url:https://akpejionimi.github.io/creative_softwarehouse/
 Got the inspiration from Dribble. design credit https://dribbble.com/shots/3585571-Creative-Design-Agency-Website/attachments/800517
 
 ![Screenshot (26)](https://user-images.githubusercontent.com/46995138/54359244-8f835900-4662-11e9-92c5-dfe3a24313ec.png)
