@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0; 
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 7px;
+}
+nav{
+    background-color: #dcdde1;
+}
+.navbar{
+    background-color: #dcdde1;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.navbar span{
+    padding-right: 40px;
+    font-weight: bold;
+}
+.section-one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dcdde1;
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+}
+.section-one h6{
+color: red;
+font-size: 1.6em;
+word-spacing: 7px;
+letter-spacing: 5px;
+}
+.section-one h1{
+    font-size: 4.4em;
+    letter-spacing: 4px;
+    padding: 15px 0px;
+    font-weight: bolder;
+}
+.style-btn{
+    padding: 7px 15px;
+    color:white;
+    background-color:  #2d3436;
+    border-style: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right:15px;
+
+}
+.btn-contact{
+background-color: #ff9f43;
+}
+.btn-aboutus{
+    color: black;
+    background-color: whitesmoke;
+    border: 1px black solid ;
+}
+.text-deco{
+    padding-top: 140px;
+}
+.right-pics{
+    /* padding-top: 50px; */
+    object-fit: contain;
+}
+.baloon{
+    object-fit: contain;
+    height: 400px;
+    padding-top: 50px;
+}
+.section-two{
+    width: 80%;
+    margin: auto;
+    padding-top:50px;
+}
+.section-two h1, p{
+    text-align: center;
+}
+.section-two p{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    opacity: 0.7;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.gallery-flex{
+    display: flex;
+    height: 100%;
+}
+.left-pic{
+    flex:40%;
+    
+    
+}
+.icecream{
+    height: 547px;
+}
+.mid-pics{
+    flex:35%; 
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.right-gal{
+    flex:20%;
+  
+}
+.top-pic{
+    height:350px;
+    margin-bottom: 5px;
+}
+.bottom-pic{
+    height: 187px;
+}
+.cell{
+    height:287px; 
+    width:100%;
+    object-fit: cover;
+    
+}
+.mobile{
+    width: 100%;
+    height:250px ; 
+    padding-bottom: 5px;
+}
+.section-three{
+width: 100%;
+padding-top: 20px;
+}
+.section-three h6{
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 7px 5px;
+    color:white;
+    background-color: #ff9f43;
+    border-style: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    
+}
+.left-detial h1{
+    padding-bottom: 20px;
+}
+
+.desc-flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.opac{
+    text-align: left;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+    opacity: 0.5;
+}
+.left-desc{
+    flex: 50%;
+}
+.right-rep{
+    flex: 50%;
+    height: 430px;
+    width:100%;
+}
+.det{
+    text-align: left;
+}
+.phone{
+    height: 480px;
+    width:90%;
+    object-fit: contain;
+}
+.left-rep{
+    width: 80%;
+    display: flex;
+    justify-content: space-between
+}
+.chef-pic{
+    width: 100%;
+    height:80%;
+    object-fit: contain; 
+}
+.btn-det{
+    margin: 20px 0px;
+    width: 150px;
+    height: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 40px;
+}
+.left-info{
+    display: flex;
+}
+/* .footer-logo{
+    padding-right: 20px;
+} */
+.footer-left{
+    display: flex;
+    flex: 60%;
+    justify-content: space-around;
+}
+.wrapper span{
+    color: red;
+}
+.wrapper p{
+    text-align: left;
+}
+.right-footer{
+    flex: 40%;
+    text-align: left;
+    margin: auto;
+}
+.right-footer p{
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+.left-info h3{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.menu-left{
+    display: flex;
+    flex-direction: column;
+}
+.menu-left span{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.subscribe{
+    border-style: none;
+    margin: 15px 0;
+}
+input{
+    border-style: none; 
+    margin: 10px 0;
+    width: 80%;
+    padding-left: 10px;
+}
+.form{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    border-bottom: solid #c6c9c9 2px;
+}
+.copyright{
+    margin: auto;
+    margin: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+}
